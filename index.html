@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="Photos/logo.png" />
+    <link rel="stylesheet" href="css/spotify.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <a href="a">Home</a>
+          </div>
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <a href="a">Search</a>
+          </div>
+        </div>
+        <div class="library">
+          <div class="options">
+            <div class="lib-option nav-option">
+              <img src="Photos/library_icon.png" alt="library" />
+              <a href="a">Your Library</a>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="lib-box">
+            <div class="box">
+              <p class="box-p1">Create your first playlist</p>
+              <p class="box-p2">It's easy, we'll help you</p>
+              <button class="badge">Create Playlist</button>
+            </div>
+            <div class="box">
+              <p class="box-p1">Let's find some podcasts to follow</p>
+              <p class="box-p2">We'll keep you updated on new episodes</p>
+              <button class="badge">Browse podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <img src="Photos/backward_icon.png" alt="backward" />
+            <img src="Photos/forward_icon.png" alt="forward" class="hide" />
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge nav-item hide">Explore Premium</button>
+            <button class="badge nav-item dark-badge">
+              <i class="fa-regular fa-circle-down" style="margin-right: 5px"></i
+              >Install App
+            </button>
+            <i class="fa-regular fa-user nav-item"></i>
+          </div>
+        </div>
+
+        <h2>Recently Played</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="Photos/card1img.jpeg" alt="1" class="card-img" />
+            <p class="card-titel">Top 50-Global</p>
+            <p class="card-info">Your daily updates of the most played...</p>
+          </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+        <div class="card-containers">
+          <div class="card">
+            <img src="Photos/card2img.jpeg" alt="1" class="card-img" />
+            <p class="card-titel">Mahiye Jinna Shona</p>
+            <p class="card-info">
+              Darshan Raval Mahiye Jinna Sohna 2023 - 3:01. 229,790,003
+            </p>
+          </div>
+          <div class="card">
+            <img src="Photos/card3img.jpeg" alt="1" class="card-img" />
+            <p class="card-titel">Mere pass tum</p>
+            <p class="card-info">
+              Rahat Fateh Ali Khan. 2019 • 1 song, 5 min 1 sec
+            </p>
+          </div>
+          <div class="card">
+            <img src="Photos/card4img.jpeg" alt="1" class="card-img" />
+            <p class="card-titel">NAA Ready</p>
+            <p class="card-info">
+              Anirudh Ravichander. Thalapathy Vijay. Asal Kolaar. 2023. 1 song,
+              4 min 8 sec
+            </p>
+          </div>
+          <div class="card">
+            <img src="Photos/arijit.jpeg" alt="1" class="card-img" />
+            <p class="card-titel">Kabhi Jo Baadal Barse</p>
+            <p class="card-info">
+              Arijit Singh - Loveholic Arijit Singh - 2019 - 4:14 - 114,336,708
+            </p>
+          </div>
+          <div class="card">
+            <img src="Photos/susant.jpeg" alt="1" class="card-img" />
+            <p class="card-titel">Besabriyaan</p>
+            <p class="card-info">
+              Armaan Malik - 2016 Shining Star - 2016 - 4:15 - 58,741,814
+            </p>
+          </div>
+        </div>
+
+        <h2>Featured</h2>
+        <div class="card-containers">
+          <div class="card">
+            <img src="Photos/card5img.jpeg" alt="1" class="card-img" />
+            <p class="card-titel">Top Song Global</p>
+            <p class="card-info">
+              (1) Birds Of A Feather. Billie Eilish. <br />(2) Espresso. Sabrina
+              Carpenter...
+            </p>
+          </div>
+          <div class="card">
+            <img src="Photos/card6img.jpeg" alt="1" class="card-img" />
+            <p class="card-titel">Top Song India</p>
+            <p class="card-info">Shree Hanuman Chalisa</p>
+          </div>
+          <div class="card">
+            <img src="Photos/usa.jpeg" alt="1" class="card-img" />
+            <p class="card-titel">Top 50 USA</p>
+            <p class="card-info">
+              Shaboozey - A Bar Song (Tipsy) <br />Luke Combs - Ain't No Love In
+              Oklahoma
+            </p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+
+      <div class="music-player">
+        <div class="album">
+          <img src="Photos/sinner.jpeg" class="sinner-img" />
+          <div class="para">
+            <p class="par1">Hello Sinner</p>
+            <p class="par2">Boogie belgique</p>
+          </div>
+          <i class="fa-solid fa-plus"></i>
+          <i class="fa-regular fa-heart"></i>
+        </div>
+        <div class="player">
+          <div class="player-control">
+            <img src="Photos/player_icon1.png" class="player-control-icon" />
+            <img src="Photos/player_icon2.png" class="player-control-icon" />
+            <img
+              src="Photos/player_icon3.png"
+              class="player-control-icon"
+              style="opacity: 1; height: 2rem"
+            />
+            <img src="Photos/player_icon4.png" class="player-control-icon" />
+            <img src="Photos/player_icon5.png" class="player-control-icon" />
+          </div>
+          <div class="playback-bar">
+            <span class="curr-time">00.00</span>
+            <input type="range" min="0" max="100" class="progress-bar" />
+            <span class="tota-time">03.33</span>
+          </div>
+        </div>
+        <div class="controls">
+          <div class="control-option">
+            <img src="Photos/controls_icon1.png" class="control-option-icon" />
+            <img src="Photos/controld_icon2.png" class="control-option-icon" />
+            <img src="Photos/controls_icon3.png" class="control-option-icon" />
+            <img src="Photos/controls_icon4.png" class="control-option-icon" />
+            <img src="Photos/controls_icon5.png" class="control-option-icon" />
+            <input type="range" min="0" max="100" class="control-bar" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
